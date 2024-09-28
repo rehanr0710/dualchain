@@ -108,12 +108,6 @@ const WalletGenerator = () => {
     );
   };
 
-  const togglePhraseVisibility = (index: number) => {
-    setVisiblePhrases(
-      visiblePhrases.map((visible, i) => (i === index ? !visible : visible))
-    );
-  };
-
   const generateWalletFromMnemonic = (
     pathType: string,
     mnemonic: string,
